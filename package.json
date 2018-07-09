@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "upload": "node upload.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,12 +16,13 @@
   "author": "Lucas Vogelsang",
   "license": "MIT",
   "devDependencies": {
+    "aws-sdk": "^2.229.1",
     "css-loader": "^0.28.11",
     "html-loader": "^0.5.5",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "sass-loader": "^7.0.1",
     "underscore-template-loader": "^1.0.0",
     "webpack": "^4.6.0",
